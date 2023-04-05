@@ -1,20 +1,24 @@
-# Chatbot Flutter Application With Dialogflow
+# Math Quiz Chatbot
+This Flutter project is a chatbot that quizzes children on their mathematical concepts through integration with Dialogflow. The chatbot is designed to ask a series of questions and provide feedback based on the answers given by the user.
 
-Chatbot is an virtual bot that can reply to user question on which it has to be trained and complied in such a way that it works and answers the user question easily !!
+# Getting Started
+To get started with the Math Quiz Chatbot, clone this repository to your local machine and open it in your preferred IDE.
 
-For that we need to have an Algorithm but at this stage, We dont need any one of these we can esily have the DIALOGFLOW so as to train the bot and the algo works from thier side itself !!
+You will need to set up a Dialogflow agent and configure it to handle user input and provide responses. You can find more information on how to do this in the Dialogflow documentation.
 
-We just need to integrate the dilaoflow to our application so that we can have the conversation in the mobile app !!
+Once you have set up your Dialogflow agent, you will need to update the lib/dialog_flow.dart file with your own credentials. Replace the const _kApiKey and const _kProjectId values with your own API key and project ID.
 
-<a class="github-button" href="https://pub.dev/packages/flutter_dialogflow">Dialogflow plugin for the Flutter</a></h3>
+You can then run the app in your preferred emulator or device by running the flutter run command.
 
+# Usage
+The Math Quiz Chatbot will ask a series of questions related to mathematical concepts. Users can respond to the questions by typing their answers in the chat interface.
 
+The chatbot will provide feedback based on the answers given by the user. If the user provides a correct answer, the chatbot will provide positive feedback. If the user provides an incorrect answer, the chatbot will provide constructive feedback and encourage the user to try again.
 
-<h3>Check out full tutorial on Dialoglow and Flutter on <a class="github-button" href="https://medium.com/@dc.vishwakarma.raj/chatbot-in-flutter-with-dialogflow-6ee63eee083b?sk=3a43dadd02cd4a8e843377b18fd94c33">Medium</a> if you like to read the content</h3> 
+# Contributing
+Contributions to the Math Quiz Chatbot are welcome! If you find a bug or have a feature request, please open an issue on GitHub.
 
-<h3>Check out full tutorial on Dialoglow and Flutter on <a class="github-button" href="https://www.youtube.com/channel/UCRhmjCnvOgULTzEFe-Jpfdw">Youtube</a></h3> 
-<a href="https://youtu.be/kd1CLYLymbI">
-<img src="https://github.com/neon97/chatbot_dialogflow/blob/master/assets/Screenshot%202020-05-18%20at%2011.35.40%20AM.png?raw=true"  width="250"
-     height="150">
-</img>
-</a>
+If you would like to contribute code to the project, please fork the repository and submit a pull request with your changes. All contributions must follow the Flutter style guide and include unit tests where appropriate.
+
+# License
+The Math Quiz Chatbot is released under the MIT License. See LICENSE for more information.

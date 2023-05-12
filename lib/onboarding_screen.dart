@@ -22,7 +22,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
   int _currentPage = 0;
   List colors = const [
-    Color(0xffFFE5DE),
+    Color(0xdfffffff),
     Color(0xFFE1F5FE),
     Color(0xffDCF6E6),
   ];
@@ -36,7 +36,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         borderRadius: BorderRadius.all(
           Radius.circular(50),
         ),
-        color: Color(0xFF000000),
+        color: Color(0x90000000),
       ),
       margin: const EdgeInsets.only(right: 5),
       height: 10,
@@ -123,7 +123,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       },
                       child: const Text("START"),
                       style: ElevatedButton.styleFrom(
-                        primary : Colors.black,
+                        backgroundColor : Colors.black,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(50),
                         ),
@@ -167,7 +167,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                           },
                           child: const Text("NEXT"),
                           style: ElevatedButton.styleFrom(
-                            primary: Colors.black,
+                            backgroundColor: Colors.black,
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(50),
                             ),

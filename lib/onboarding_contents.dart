@@ -20,7 +20,7 @@ List<OnboardingContents> contents = [
     title: "Chat and learn math at the same time!",
     image: "assets/calculating.png",
     desc:
-    "Chat with pluto as you wish. When you want to start practicing, tell pluto. You can ask for your scores too!"
+    "Chat with pluto as you wish. Say 'hello' to start the conversation. When you want to start practicing, tell pluto. You can ask for your scores too!"
   ),
   OnboardingContents(
     title: "Don't forget to have fun!",

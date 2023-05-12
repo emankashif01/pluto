@@ -10,7 +10,7 @@ class ChatBox extends StatefulWidget {
 class _MyAppState extends State<ChatBox> {
   void response(query) async {
     AuthGoogle authGoogle = await AuthGoogle(
-            fileJson: "assets/dialog_flow_auth.json")
+            fileJson: "assets/dialogflowauth.json")
         .build();
     Dialogflow dialogflow =
         Dialogflow(authGoogle: authGoogle, language: Language.english);
@@ -34,7 +34,6 @@ class _MyAppState extends State<ChatBox> {
           "Pluto",
         ),
         backgroundColor: Colors.teal[700],
-
       ),
       body: Container(
         child: Column(
@@ -48,7 +47,7 @@ class _MyAppState extends State<ChatBox> {
                         messsages[index]["data"]))),
             Divider(
               height: 5.0,
-              color: Colors.deepOrange,
+              color: Colors.teal,
             ),
             Container(
               padding: EdgeInsets.only(left: 15.0, right: 15.0),
@@ -115,6 +114,7 @@ class _MyAppState extends State<ChatBox> {
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 CircleAvatar(
+                  backgroundColor: Colors.transparent,
                   backgroundImage: AssetImage(
                       data == 0 ? "assets/plutobot.png" : "assets/user2.png"),
                 ),
